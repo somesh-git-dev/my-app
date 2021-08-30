@@ -1,5 +1,6 @@
 import './App.css';
-import Counter from "./components/Counter";
+import FirstComponent from "./components/FirstComponent";
+import SecondComponent from "./components/SecondComponent";
 
 function App() {
     return (
@@ -7,7 +8,9 @@ function App() {
             {/*<LoginApp/>*/}
             {/*<Todo/>*/}
             {/*<Todos/>*/}
-            <Counter/>
+            {/*<Counter/>*/}
+            <FirstComponent/>
+            <SecondComponent/>
         </div>
     );
 }
